@@ -30,6 +30,15 @@
         3.	Select Input Type
                 1 → Choose a video file
                 2 → Use webcam
+## 📝 Note on Output Files
+Before running the script for the first time:
+
+- `detection_logs.csv` does not exist or is empty  
+- `performance_report.txt` does not exist or is empty  
+
+These files are **automatically generated and populated after execution**, once object detection is completed.  
+No manual file creation is required.
+
 
 # Confidence & IoU Handling
     •	Confidence Threshold: Applied to filter low-confidence detections

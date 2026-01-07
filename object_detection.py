@@ -11,19 +11,17 @@ from collections import defaultdict
 # ===================== CONFIG =====================
 MODEL_PATH = "yolov8n.pt"
 CONF_THRESHOLD = 0.5
-CAMERA_INDEX = 1  # change to 0 if webcam not detected
+CAMERA_INDEX = 1  
 
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 360
 
 
-# ===================== LOAD MODEL =====================
 print("Loading YOLOv8 Nano model...")
 model = YOLO(MODEL_PATH)
 print("Model loaded successfully\n")
 
 
-# ===================== FILE CHOOSER =====================
 def choose_video_file():
     root = Tk()
     root.withdraw()

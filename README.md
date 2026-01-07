@@ -1,16 +1,16 @@
 # Overview
-    This project implements a real-time object detection system using YOLOv8 Nano and Python.
-    It supports video file upload and live webcam detection, performs object detection in real time, logs detections, measures performance, and generates detailed reports.
+This project implements a real-time object detection system using YOLOv8 Nano and Python.
+It supports video file upload and live webcam detection, performs object detection in real time, logs detections, measures performance, and generates detailed reports.
 
-    The system is designed to be user-friendly, efficient, and interview-ready, focusing on inference and deployment rather than model training.
+The system is designed to be user-friendly, efficient, and interview-ready, focusing on inference and deployment rather than model training.
 
 ## Objectives
-    1.	Perform real-time object detection using a pre-trained YOLO model
-    2.	Support both video file input and webcam input
-    3.	Display bounding boxes with confidence scores
-    4.	Log detection details to a CSV file
-    5.	Measure and report FPS performance
-    6.	Generate a detailed TXT performance report with statistics
+1.	Perform real-time object detection using a pre-trained YOLO model
+2.	Support both video file input and webcam input
+3.	Display bounding boxes with confidence scores
+4.	Log detection details to a CSV file
+5.	Measure and report FPS performance
+6.	Generate a detailed TXT performance report with statistics
 
 ## Tech Stack
     •	Language: Python 3.8+

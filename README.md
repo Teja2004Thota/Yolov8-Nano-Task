@@ -24,7 +24,7 @@ The system is designed to be user-friendly, efficient, and interview-ready, focu
 
 ## How to Run
         1.	Install Dependencies
-                pip install ultralytics opencv-python pandas
+                pip install numpy==1.26.4 opencv-python ultralytics pandas
         2.	Run the Script
                 python object_detection.py
         3.	Select Input Type

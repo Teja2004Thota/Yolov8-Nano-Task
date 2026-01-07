@@ -11,7 +11,7 @@ from collections import defaultdict
 # ===================== CONFIG =====================
 MODEL_PATH = "yolov8n.pt"
 CONF_THRESHOLD = 0.5
-CAMERA_INDEX = 1  
+CAMERA_INDEX = 1  # Change to 0 if you Laptop default webcam is at index 0
 
 FRAME_WIDTH = 640
 FRAME_HEIGHT = 360
